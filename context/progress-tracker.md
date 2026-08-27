@@ -4,23 +4,20 @@ Update this file whenever the current phase, active feature, or implementation s
 
 ## Current Phase
 
-- Feature 01 — Design System & UI Primitives (complete)
+- Feature 02 — Editor Chrome (complete, verified)
 
 ## Current Goal
 
-- Define the immediate implementation goal here.
+- Feature 03 — TBD
 
 ## Completed
 
 - **01-design-system**: shadcn/ui initialized (base-nova, Tailwind v4), components/ui installed (Button, Card, Dialog, Input, Tabs, Textarea, ScrollArea), lucide-react installed, lib/utils.ts with cn(), globals.css updated with project dark theme tokens mapped to shadcn variables and Tailwind @theme utilities.
+- **02-editor-chrome**: `components/editor/editor-navbar.tsx` (fixed navbar, sidebar toggle, PanelLeftOpen/Close icons, dark bg + bottom border), `components/editor/project-sidebar.tsx` (floating overlay, slides from left, isOpen/onClose props, Projects header + close button, My Projects/Shared tabs with empty states, full-width New Project button). Zero TypeScript and lint errors.
 
 ## In Progress
 
-- None yet.
-
-## Next Up
-
-- Add the next planned feature unit here.
+- None.
 
 ## Open Questions
 
